@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>align items</title>
+    <style>
+        body {
+            font-family: arial, helvetica;
+        }
+
+        h1 {
+            padding: 0 0 0 40%;
+        }
+
+        .container {
+            background: #eee;
+            width: 200px;
+            margin: 50px auto 0;
+            padding: 10px;
+            border: 3px solid #000;
+            display: flex;
+            height: 400px;
+            /* align-items: flex-start; */
+            /* align-items:flex-end ; */
+           /* align-items: center; */
+           align-items: baseline;
+           justify-content: center;
+           justify-content: space-between;
+
+           /* it all above align-items property also use in flex-direction : column */
+            
+
+        }
+
+        .item1 {
+            background: orangered;
+        }
+
+        .item2 {
+            background: yellowgreen;
+            height: 100px;
+        }
+
+        .item3 {
+            background: mediumblue;
+        }
+
+        .item4 {
+            background: hotpink;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Css align-items</h1>
+    <div class="container">
+        <div class="item1 items">one</div>
+        <div class="item2 items">two</div>
+        <div class="item3 items">three</div>
+        <div class="item4 items">four</div>
+
+
+    </div>
+
+</body>
+
+</html>
